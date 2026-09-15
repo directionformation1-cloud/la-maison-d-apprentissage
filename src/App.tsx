@@ -147,6 +147,21 @@ function App() {
           </div>
         </section>
 
+        <section className="quality-section" aria-labelledby="quality-title">
+          <div className="container quality-card reveal">
+            <div className="quality-badge">
+              <img src="/qualiopi-certification.jpeg" alt="Qualiopi, processus certifié — République Française" />
+            </div>
+            <div className="quality-copy">
+              <p className="eyebrow"><span /> Certification qualité</p>
+              <h2 id="quality-title">La qualité au cœur<br />de chaque <em>parcours.</em></h2>
+              <p>Notre processus de formation est certifié Qualiopi. De la définition de vos objectifs au suivi de votre progression, chaque étape est structurée pour vous offrir un accompagnement clair, exigeant et humain.</p>
+              <ul><li><Icon name="check" size={17} /> Des objectifs clairement définis</li><li><Icon name="check" size={17} /> Un suivi régulier de votre progression</li><li><Icon name="check" size={17} /> Une démarche d’amélioration continue</li></ul>
+            </div>
+            <div className="quality-seal" aria-hidden="true"><Icon name="spark" size={23} /><span>QUALITÉ</span></div>
+          </div>
+        </section>
+
         <section className="method-section section" id="methode">
           <div className="container method-layout">
             <div className="method-visual reveal"><div className="blueprint-lines" /><div className="method-house"><div className="method-roof" /><div className="method-wall"><span /><span /><span /></div></div><div className="stamp">100%<small>CONCRET</small></div><div className="pencil" /></div>
