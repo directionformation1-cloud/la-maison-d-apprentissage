@@ -160,7 +160,6 @@ function App() {
           <div className="container">
             <div className="testimonials-heading reveal">
               <div><p className="eyebrow eyebrow--dark"><span /> Témoignages</p><h2>Des parcours qui<br /><em>prennent vie.</em></h2></div>
-              <p className="demo-notice"><Icon name="spark" size={18} /><span><strong>Exemples de présentation</strong> — contenus fictifs à remplacer par des avis recueillis auprès de vos apprenants.</span></p>
             </div>
             <div className="testimonials-grid">
               {testimonials.map((testimonial) => (
